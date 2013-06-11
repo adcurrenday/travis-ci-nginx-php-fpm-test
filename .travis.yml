@@ -5,8 +5,8 @@ php:
 service: postgresql
 
 
-install:
-    - sudo pip install -r requirements.txt --use-mirrors
+#install:
+#    - sudo pip install -r requirements.txt --use-mirrors
 
 before_script:
   - sudo ./setup_fpm_and_nginx_for_travis.sh
