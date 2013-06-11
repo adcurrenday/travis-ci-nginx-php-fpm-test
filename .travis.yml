@@ -4,6 +4,10 @@ php:
 
 service: postgresql
 
+
+install:
+    - pip install -r requirements.txt --use-mirrors
+
 before_script:
   - sudo ./setup_fpm_and_nginx_for_travis.sh
 script: ./curl_hello.sh
