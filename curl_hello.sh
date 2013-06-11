@@ -1,5 +1,5 @@
 #!/bin/bash
-base_url="http://localhost:8080"
+base_url="http://localhost"
 echo "does it work?"
 echo "raw:"
 curl --silent "$base_url/echo_hello.php?and=parameters"
