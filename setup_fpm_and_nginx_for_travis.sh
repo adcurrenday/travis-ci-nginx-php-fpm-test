@@ -1,5 +1,6 @@
 #!/bin/bash
-pwd
+ls /var
+ls /var/run
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo apt-get -y install php5-fpm
