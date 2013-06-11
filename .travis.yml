@@ -1,6 +1,9 @@
 language: php
 php:
   - 5.4
+
+service: postgresql
+
 before_script:
   - sudo ./setup_fpm_and_nginx_for_travis.sh
 script: ./curl_hello.sh
